@@ -1,0 +1,28 @@
+<object class="org.apache.commons.dbcp.PoolableConnectionFactory"
+	xmlns="http://apache.org/xml/xmlns/jakarta/commons/jocl">
+	
+<object class="org.apache.commons.dbcp.DriverManagerConnectionFactory">
+	<string value="jdbc:mysql://localhost:3306/android_api?useUnicode=true&amp;characterEncoding=utf-8"/>
+	<string value="root"/>
+	<string value="giptkorea"/>
+</object>
+
+<object class="org.apache.commons.pool.impl.GenericObjectPool">
+	<object class="org.apache.commons.pool.PoolableObjectFactory" null="true"/>
+		<int value="100"/>		<!-- maxActive -->
+		<byte value="1"/>		<!--whenExhaustedAction -->
+		<long value="0"/>	<!--maxWait-->
+		<int value="100"/>		<!--maxIdle-->	
+		<int value="50"/>		<!--minIdle-->
+		<boolean value="true"/>	<!--testOnBorrow-->
+		<boolean value="true"/>	<!--testOnReturn-->
+		<long value="3600000"/>	<!--timeBetweenEvctionRunsMills-->
+		<int value="5"/>		<!--numTestPerEvictionRun-->
+		<long value="7200000"/>	<!--minEvictableTimeMills-->
+		<boolean value="true"/>	<!--testWhileIdle-->
+</object>
+<object class="org.apache.commons.pool.KeyedObjectPoolFactory" null="true"/>
+	<string null="true"/>
+	<boolean value="false"/>
+	<boolean value="true"/>
+</object>

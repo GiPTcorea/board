@@ -1,0 +1,190 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	background-color: #ebebeb;
+	font-family: Dotum;
+}
+
+#back {
+	position: absolute;
+	top: 30%;
+	left: 4%;
+	width: auto;
+	height: 50%;
+}
+
+#Profile {
+	overflow: auto;
+	position: relative;
+	margin: 2%;
+	width: 96%;
+	background: #fafafa;
+	border: 2px solid #c9c6bf;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+#mypic {
+	margin: 2%;
+	width: 20%;
+	height: auto;
+	float: left;
+}
+#updateProfile {
+	margin: 2%;
+	margin-top: 6%;
+	width: 30%;
+	float: right;
+}
+
+#pro_set {
+	color: #3e3e3e;
+	float: left;
+	margin-top: 6%;
+	margin-left: 5%;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#uid {
+	float: left;
+}
+
+#nick {
+	clear: both;
+}
+
+.contentFrame_ {
+	background: #fafafa;
+	border: 1px solid #B3B3B3;
+	position: relative;
+	margin: 2%;
+	clear: both;
+	width: 96%;
+}
+
+.contents_ {
+	overflow: auto;
+	width: 100%;
+	border: 1.5px solid #c9c6bf;
+	background-color: #fafafb;
+}
+.mypic_re {
+	margin: 2%;
+	width: 15%;
+	height: auto;
+	float: left;
+}
+
+.contentBlock_ {
+	margin: 2%;
+	float: left;
+	width: 75%;
+	background-color: #eeeeee;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.id_ {
+	float: left;
+	margin-left: 2%;
+}
+
+.updated {
+	float: right;
+	margin-bottom: 0%;
+}
+
+.update_ {
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	width: 20%;
+}
+
+.delete_ {
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 0%;
+	width: 20%;
+}
+
+.createdAt_ {
+	text-size:10;
+	clear: both;
+	float: right;
+	margin-top: 0%;
+	margin-bottom: 1%;
+	margin-right: 2%;
+}
+.content_ {
+	margin: 2%;
+	clear: both;
+}
+
+.CntSet_ {
+	float: right;
+	margin-right: 5%;
+}
+
+.metooBt_ {
+	float: left;
+	width: 48%;
+	margin-bottom: 2%;
+}
+
+.commentBt_ {
+	float: left;
+	margin-left: 3%;
+	width: 48%;
+	margin-bottom: 2%;
+}
+
+.contents_bt {
+	clear: both;
+	margin: 2%;
+}
+.metooBt {
+	position: absolute;
+	bottom: 0.2em;
+	background-color: #787878;
+	left: 4%;
+	width: 45%;
+	height: 3em;
+}
+
+.commentBt {
+	position: absolute;
+	bottom: 0.2em;
+	left: 51%;
+	background-color: #787878;
+	width: 45%;
+	height: 3em;
+}
+
+.CntSet {
+	position: absolute;
+	right: 10%;
+	bottom: 3.5em;
+}
+
+.pic {
+	position: absolute;
+	left: 5%;
+	top: 1em;
+}
+.editSet {
+	position: absolute;
+	right: 8%;
+	top: 1em;
+}
+
+.content {
+	width: 90%;
+	height: 4em;
+	overflow: hidden;
+}

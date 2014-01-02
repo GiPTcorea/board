@@ -1,0 +1,54 @@
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	background-color: #ebebeb;
+	font-family: Dotum;
+}
+
+#Menu {
+	position: relative;
+	height: 4.5em;
+	width: 100%;
+	background: #171717;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#CurrentPage {
+	position: relative;
+	font-size: 2.5em;
+	height: inherit;
+	top: 20%
+}
+
+#goMyPage {
+	position: absolute;
+	top: 30%;
+	right: 4%;
+	width: auto;
+	height: 50%;
+}
+
+#barFrame {
+	margin: 2%;
+	overflow: auto;
+	position: relative;
+	
+	width: 96%;
+}
+
+#barComment {
+	margin-top: 2%;
+	margin-left: 2%;
+	font-size:1.5em;
+	float: left;
+	font-weight: bold;
+}
+
+#write {
+	width: 20%;
+	height: auto;
+	float: right;
+}

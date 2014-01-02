@@ -1,0 +1,174 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	font-family: Dotum;
+	background-color: #e8e8e8;
+}
+
+#detailContent {
+	padding-bottom: 15%;
+	overflow: auto;
+	margin: 2%;
+	clear: both;
+	width: 96%;
+	overflow: scroll;
+	min-height: 90%;
+	z-index: 10;
+	background-color: #fafafa;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+#back {
+	position: absolute;
+	top: 30%;
+	left: 4%;
+	width: auto;
+	height: 50%;
+}
+
+#writeCommentFrame {
+
+	clear: both;
+	bottom: 0;
+	width: 100%;
+	z-index: 20;
+	background: #aeaeae;
+}
+
+#writeComment {
+
+	background: #fafafa;
+	border: 1px solid #B3B3B3;
+	color: #333333;
+	font-size: 13px;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+	width: 70%;
+	margin: 2%;
+	float: left;
+}
+
+#submitComment {
+
+	margin: 1%;
+	padding-top: 2%;
+	width: 20%;
+
+	float: left;
+	
+}
+
+#userFrame {
+	overflow: auto;
+	margin: 2%;
+	width: 96%;
+	position: relative;
+}
+
+.pic {
+	margin: 2%;
+	width: 20%;
+	height: auto;
+	float: left;
+}
+
+.pic_detail {
+	margin: 2%;
+	font-weight: bold;
+	float: left;
+	color: #6a6c6c;
+}
+
+#nick {
+	font-weight: bold;
+	margin: 2%;
+	font-size: 1.5em;
+	clear: both;
+	color: #6a6c6c;
+}
+._icon_layer {
+	width: 20%;
+	margin-right: 5%;
+	height: auto;
+	float: left;
+}
+.metooCnt_commentCnt {
+	float: left;
+}
+#contentFrame {
+	padding: 2%;
+	position: relative;
+	width: 92%;
+	margin: 2%;
+	background-color: #e1e1e1;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+#date {
+	padding: 2%;
+	float: left;
+	font-weight: bold;
+}
+
+#content {
+	padding: 2%;
+	clear: both;
+	width: 97%;
+}
+
+.comments {
+	overflow: auto;
+	margin: 2%;
+	padding: 2%;
+	position: relative;
+	width: 92%;
+	background-color: #a1a2a2;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+
+.pic_comment_writer {
+	width: 20%;
+	height: auto;
+	padding: 2%;
+	float: left;
+}
+
+.commentBlock {
+	margin-left: 2%;
+	padding: 3%;
+	width: 65%;
+	float: left;
+	background-color: #fcfcfc;
+	border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	-webkit-border-radius: 0.5em;
+}
+.ids {
+	font-size: 0.8em;
+	margin-bottom: 8%;
+	clear: both;
+}
+.id {
+	float: left;
+}
+.time {
+	float: right;
+}
+.comment {
+	clear: both;
+}
+
+#last {
+	width: 100%;
+	margin: 0 auto;
+	height: 2em;
+	text-align: center;
+	background-color: #6799FF;
+}
