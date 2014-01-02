@@ -8,11 +8,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Insert title here</title>
 <%
-
+/*
 	if (session.getAttribute("uid") == null) {
 	int uid = Integer.parseInt(request.getParameter("uid"));
 		session.setAttribute("uid", uid);
-	}
+	}*/
 	//session.setAttribute("uid", 1);
 
 %>
